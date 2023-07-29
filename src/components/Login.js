@@ -27,7 +27,7 @@ const Login = () => {
     <div className="login-background">
       {/* The login form inside the background div */}
       <div className="login-container">
-        <h6> Welcome back👋</h6>
+        <h6> Welcome back</h6>
         <h2>Sign in to your accont</h2>
         <div className="input-container">
           <label>Your email</label>
