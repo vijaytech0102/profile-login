@@ -1,0 +1,54 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to fill the viewport */
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    display: block; /* Make the label a block-level element */
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    display: block; /* Make the input a block-level element */
+    margin-top: 5px; /* Add some space between the label and input */
+  }
+  
+  .login-container button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff; /* Text color white */
+    border: none;
+    border-radius: 4px;
+  }
+ /* LoginBackground.css */
+.login-background {
+    /* Add the desired background styles */
+    background-color: #f2f2f2; /* Light gray background color */
+    min-height: 100vh; /* Set the minimum height of the background div to fill the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Set a maximum width for the background on larger screens */
+  @media (min-width: 768px) {
+    .login-background {
+      max-width: 400px;
+      margin: 0 auto; /* Center the background horizontally */
+    }
+  }
+  
+  
